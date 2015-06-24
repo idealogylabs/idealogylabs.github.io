@@ -1,4 +1,369 @@
-<header class="site-header">
+<!--Header Begin-->
+<header>
+  <!--Top Header Begin-->
+  <div class="top-header container-fluid">
+  <input type="hidden" id="path" value="/">
+  <input type="hidden" id="page_name" value="">
+  <a href="#requestcallback" class="req-call-back" data-toggle="modal" id="request_for_call_back">
+    <i class="fa fa-phone pull-left"></i> <span>Questions? Call us: +91 741 6686 847</span>
+  </a>
+    <nav class="top-header-menu navbar-right">
+      <ul class="nav nav-top">
+        <li>
+          <a href="https://twitter.com/idealogylabs" target="_blank"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/company/3685720" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/idealogylabs" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--Top Header End-->
+  <!--Bottom Header End-->
+    <div class="bottom-header container-fluid main-head" id="slide-nav">
+      <h1 class="navbar-brand">
+        <i class="fa fa-lightbulb-o"></i> <a href="/">Idealogy Labs</a>
+      </h1>
+    <nav id="horizontal-menu" class="bottom-header-menu navbar-right hidden-sm hidden-xs">
+      <ul class="nav">
+        <li>
+          <a href="/about-us">About</a>
+        </li>
+        <li>          
+          <a href="#">Services</a>
+          <div class="mega-menu-small">
+            <ul class="vertical-menu">
+              <li><a href="/startup-acceleration" target="_blank">StartUp Acceleration</a></li>
+              <li><a href="/product-development">Product Development</a></li>
+              <li><a href="/extended-teams">Extended Teams</a></li>
+              <li><a href="/cyber-security">Cyber Security</a></li>
+              <li><a href="/digital-image-branding">Digital Image Branding</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>          
+          <a href="#">Technologies</a>
+          <div class="mega-menu-small">
+            <ul class="vertical-menu">
+              <li><a href="/center-of-excellences" target="_blank">Center Of Excellences</a></li>
+              <li><a href="/domains">Technology Domains</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="/contact-us">Contact Us</a>
+        </li>
+        <li>
+          <a href="/contact-us">Blog</a>
+        </li>
+        <li class="search">
+          <form class="form-inline transition-search" action="/search" onSubmit="return header_search()">
+            <div class="search-course clearfix">
+              <div class="typeahead-container">
+                <div class="typeahead-field">
+                  <span class="typeahead-query">
+                    <input id="desktop-q" name="q" type="search" placeholder="Type the course name here.." autocomplete="off" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <a class="open-menu-btn pull-right visible-sm visible-xs" href="javascript:void(0);">
+      <i class="icon icon-bars"></i>
+    </a>
+    <nav id="slidemenu" class="visible-sm visible-xs">
+      <form>
+        <div class="typeahead-red">
+          <div class="typeahead-container">
+            <div class="typeahead-field">
+              <span class="typeahead-query">
+                <input id="responsive-q" name="lean" type="search" placeholder="Type the course name here.." autocomplete="off" />
+              </span>
+            </div>
+           </div>
+         </div>
+      </form>
+      <h4>BROWSE BY CATEGORY</h4>
+      <ul class="gw-nav gw-nav-list">
+
+        <li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Agile Management</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/agile-management/agile-and-scrum-training">Agile and Scrum</a>
+              </li><li>
+                <a href="/agile-management/agile-estimating-and-planning-training">Agile Estimating and Planning</a>
+              </li><li>
+                <a href="/agile-management/agile-pmp-training">Agile PMP<sup>®</sup> Certification Training</a>
+              </li><li>
+                <a href="/agile-management/agile-project-management-with-scrum-training">Agile Project Management with Scrum</a>
+              </li><li>
+                <a href="/agile-management/agile-team-development-training">Agile Team Development (ATD)</a>
+              </li><li>
+                <a href="/agile-management/agile-user-stories-training">Agile User Stories</a>
+              </li><li>
+                <a href="/agile-management/certified-agile-essentials-training">Certified Agile Essentials (CAE)</a>
+              </li><li>
+                <a href="/agile-management/certified-less-practitioner-training">Certified LeSS Practitioner</a>
+              </li><li>
+                <a href="/agile-management/csd-certification-training">Certified Scrum Developer (CSD<sup>®</sup>)</a>
+              </li><li>
+                <a href="/agile-management/csd-technical-track-training">Certified Scrum Developer- Technical Track</a>
+              </li><li>
+                <a href="/agile-management/csm-certification-training">Certified Scrum Master (CSM®)</a>
+              </li><li>
+                <a href="/agile-management/cspo-certification-training">Certified Scrum Product Owner (CSPO®)</a>
+              </li><li>
+                <a href="/agile-management/improving-service-delivery-with-kanban-method">Improving Service Delivery with Kanban Method</a>
+              </li><li>
+                <a href="/agile-management/introduction-to-agile-scrum">Introduction to Agile (Scrum)</a>
+              </li><li>
+                <a href="/agile-management/kanban-development-with-atlassian-jira-agile">Kanban Development with Atlassian JIRA Agile</a>
+              </li><li>
+                <a href="/agile-management/lean-and-kanban-training">Lean and Kanban</a>
+              </li><li>
+                <a href="/agile-management/management-3-training">Management 3.0</a>
+              </li><li>
+                <a href="/agile-management/pmi-acp-certification-training">PMI-ACP® Certification</a>
+              </li><li>
+                <a href="/agile-management/practical-scrum-master-training">Practical Scrum Master Workshop</a>
+              </li><li>
+                <a href="/agile-management/safe-agilist-certification-training">SAFe Agilist Certification</a>
+              </li><li>
+                <a href="/agile-management/safe-practitioner-certification">SAFe Practitioner Certification</a>
+              </li><li>
+                <a href="/agile-management/spc-certification-training">SAFe Program Consultant Certification</a>
+              </li><li>
+                <a href="/agile-management/scrum-development-with-atlassian-jira-agile">Scrum Development with Atlassian JIRA Agile</a>
+              </li><li>
+                <a href="/agile-management/scrum-performance-training">Scrum Performance</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Finance</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/finance/budget-analysis-and-forecasting-training">Budget Analysis and Forecasting</a>
+              </li><li>
+                <a href="/finance/cfa-level-1-training">CFA Level 1</a>
+              </li><li>
+                <a href="/finance/cfa-level-2-training">CFA Level 2</a>
+              </li><li>
+                <a href="/finance/corporate-governance">Corporate Governance</a>
+              </li><li>
+                <a href="/finance/credit-risk-management-training">Credit Risk Management</a>
+              </li><li>
+                <a href="/finance/finance-for-non-finance-managers-training">Finance for Non-Finance Managers</a>
+              </li><li>
+                <a href="/finance/financial-modeling-with-excel-training">Financial Modeling with Excel</a>
+              </li><li>
+                <a href="/finance/microsoft-excel-2010-training">Microsoft Excel 2010</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">IT Security</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/it-security/certified-ethical-hacker-v8-training">Certified Ethical Hacker V8</a>
+              </li><li>
+                <a href="/it-security/cisa-certification-training">CISA<sup>®</sup></a>
+              </li><li>
+                <a href="/it-security/cism-training">CISM<sup>®</sup></a>
+              </li><li>
+                <a href="/it-security/cissp-training">CISSP<sup>®</sup></a>
+              </li><li>
+                <a href="/it-security/cobit-5-foundation-training">COBIT® 5 Foundation Certification</a>
+              </li><li>
+                <a href="/it-security/pci-data-security-standard-training">Payment Card Industry – Data Security Standard (PCI-DSS)</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Information Technology</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/information-technology/android-development-training">Android Development</a>
+              </li><li>
+                <a href="/information-technology/angular-js-training">Angular JS</a>
+              </li><li>
+                <a href="/information-technology/architect-certification-training">AWS Architect Certification Training</a>
+              </li><li>
+                <a href="/information-technology/data-analysis-and-machine-learning-using-python">Data Analysis and Machine Learning Using Python</a>
+              </li><li>
+                <a href="/information-technology/data-science-training">Data Science Training</a>
+              </li><li>
+                <a href="/information-technology/html-css-training">HTML/CSS Training</a>
+              </li><li>
+                <a href="/information-technology/ios-development-training">iOS Development</a>
+              </li><li>
+                <a href="/information-technology/itil-foundation-certification-training">ITIL® Foundation Certification</a>
+              </li><li>
+                <a href="/information-technology/kepner-tregoe-foundation-training">Kepner Tregoe Foundation</a>
+              </li><li>
+                <a href="/information-technology/mastering-python-training">Mastering Python</a>
+              </li><li>
+                <a href="/information-technology/microsoft-sharepoint-2013-training">Microsoft SharePoint 2013</a>
+              </li><li>
+                <a href="/information-technology/python-101-training">Python 101</a>
+              </li><li>
+                <a href="/information-technology/python-in-the-enterprise">Python in the Enterprise</a>
+              </li><li>
+                <a href="/information-technology/ruby-on-rails-training">Ruby on Rails</a>
+              </li><li>
+                <a href="/information-technology/tableau-training">Tableau Training</a>
+              </li><li>
+                <a href="/information-technology/togaf-certification-training">TOGAF 9.1 Certification</a>
+              </li><li>
+                <a href="/information-technology/web-frameworks-in-python">Web Frameworks in Python</a>
+              </li><li>
+                <a href="/information-technology/xbrl-training">XBRL</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Project Management</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/project-management/capm-certification-training">CAPM® Certification</a>
+              </li><li>
+                <a href="/project-management/microsoft-project-2013-training">Microsoft® Project 2013</a>
+              </li><li>
+                <a href="/project-management/ms-project-2007-10-training">MS Project 2007/10</a>
+              </li><li>
+                <a href="/project-management/oracle-primavera-p6-v8-training">Oracle Primavera P6 V8</a>
+              </li><li>
+                <a href="/project-management/pgmp-certification-training">PgMP® Certification</a>
+              </li><li>
+                <a href="/project-management/pmp-certification-training">PMP® Certification</a>
+              </li><li>
+                <a href="/project-management/practical-pmp-with-ms-project-2010-training">Practical PMP with MS Project 2010</a>
+              </li><li>
+                <a href="/project-management/practical-pmp-with-ms-project-training">Practical PMP with MS Project 2013</a>
+              </li><li>
+                <a href="/project-management/practical-pmp-with-oracle-primavera-p6-training">Practical PMP with Oracle Primavera P6</a>
+              </li><li>
+                <a href="/project-management/prince2-foundation-and-practitioner-certification-training">PRINCE2® Foundation and Practitioner Certification</a>
+              </li><li>
+                <a href="/project-management/prince2-foundation-certification-training">PRINCE2® Foundation Certification</a>
+              </li><li>
+                <a href="/project-management/prince2-practitioner-certification-training">PRINCE2® Practitioner Certification</a>
+              </li><li>
+                <a href="/project-management/senior-international-project-manager">Senior International Project Manager</a>
+              </li><li>
+                <a href="/project-management/the-pmi-act-australian-pmp-exam-preparation-course">The PMI® ACT Australian PMP® Exam Preparation Course</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Quality Management</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/quality-management/casq-training">Certified Associate of Software Quality (CASQ)</a>
+              </li><li>
+                <a href="/quality-management/cmmi-training">CMMI® V1.3</a>
+              </li><li>
+                <a href="/quality-management/six-sigma-black-belt-certification-training">Six Sigma Black Belt</a>
+              </li><li>
+                <a href="/quality-management/six-sigma-green-belt-certification-training">Six Sigma Green Belt</a>
+              </li><li>
+                <a href="/quality-management/six-sigma-yellow-belt-certification-training">Six Sigma Yellow Belt</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Soft Skills Training</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/soft-skills-training/building-team-trust-workshop">Building Team Trust Workshop</a>
+              </li><li>
+                <a href="/soft-skills-training/international-certificate-in-advanced-leadership-skills">International Certificate in Advanced Leadership Skills</a>
+              </li><li>
+                <a href="/soft-skills-training/soft-skills-communication">Soft Skills - Communication</a>
+              </li><li>
+                <a href="/soft-skills-training/soft-skills-leadership">Soft Skills - Leadership</a>
+              </li><li>
+                <a href="/soft-skills-training/soft-skills-for-corporate-career-growth">Soft Skills for Corporate Career Growth</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Risk Management</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/risk-management/frm-level-1-certification-training">FRM<sup>®</sup> Level-1 Certification</a>
+              </li><li>
+                <a href="/risk-management/frm-level-2-certification-training">FRM<sup>®</sup> Level-2 Certification</a>
+              </li><li>
+                <a href="/risk-management/pmi-rmp-certification-training">PMI-RMP® Certification</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Big Data and Hadoop</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/big-data-and-hadoop/apache-hadoop-administrator-training">Apache Hadoop<sup>TM</sup> Administrator</a>
+              </li><li>
+                <a href="/big-data-and-hadoop/big-data-analytics-using-hadoop-training">Big Data Analytics using Hadoop</a>
+              </li><li>
+                <a href="/big-data-and-hadoop/big-data-and-hadoop-development-training">Big Data and Hadoop (2.0) Development</a>
+              </li><li>
+                <a href="/big-data-and-hadoop/hadoop-data-analyst-training">Hadoop Data Analyst</a>
+              </li><li>
+                <a href="/big-data-and-hadoop/hadoop-essentials-training">Hadoop Essentials</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Business Management</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/business-management/agile-business-analysis-training">Agile Business Analysis</a>
+              </li><li>
+                <a href="/business-management/building-successful-business-case">Building a Successful Business Case</a>
+              </li><li>
+                <a href="/business-management/business-case-writing-training">Business Case Writing</a>
+              </li><li>
+                <a href="/business-management/cbap-certification-training">CBAP® Certification</a>
+              </li><li>
+                <a href="/business-management/pmi-pba-certification-training">PMI-PBA<sup>SM</sup> Certification</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">CompTIA Courses</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/comptia-courses/comptia-a-certification-training">CompTIA A+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-cloud-essentials-certification-training">CompTIA Cloud Essentials Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-cloud-certification">CompTIA Cloud+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-mobility-certification">CompTIA Mobility+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-network-certification">CompTIA Network+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-project-certification">CompTIA Project+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-security-certification">CompTIA Security+ Certification</a>
+              </li><li>
+                <a href="/comptia-courses/comptia-server-certification">CompTIA Server+ Certification</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Other Courses</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/other-courses/certified-supply-chain-professional">Certified Supply Chain Professional </a>
+              </li><li>
+                <a href="/other-courses/leading-and-delivering-world-class-product-management-training">Leading and Delivering World Class Product Management</a>
+              </li><li>
+                <a href="/other-courses/product-management-and-product-marketing-for-telecoms-it-and-software">Product Management and Product Marketing for Telecoms, IT and Software</a>
+              </li><li>
+                <a href="/other-courses/software-estimation-and-measurement-using-ifpug-fpa">Software Size Estimation and Measurement Using IFPUG FPA</a>
+              </li><li>
+                <a href="/other-courses/software-size-estimation-and-measurement-using-ifpug-fpa-and-snap">Software Size Estimation and Measurement using IFPUG FPA & SNAP</a>
+              </li></ul>
+              </li><li class="init-arrow-down">
+                <a href="javascript:void(0)"> <span class="gw-menu-text">Testing</span> <b class="gw-arrow icon-arrow-up8"></b> </a>
+                <ul class="gw-submenu"><li>
+                <a href="/testing/certified-agile-tester">Certified Agile Tester (CAT)</a>
+              </li><li>
+                <a href="/testing/certified-professional-automation-agile-testing">Certified Professional - Automation Agile Testing (CP-AAT)</a>
+              </li><li>
+                <a href="/testing/certified-professional-basic-agile-testing">Certified Professional - Basic Agile Testing (CP-BAT)</a>
+              </li><li>
+                <a href="/testing/certified-professional-master-agile-testing">Certified Professional - Master Agile Testing (CP-MAT)</a>
+              </li><li>
+                <a href="/testing/coded-ui-test-using-microsoft-visual-studio-2013-training">Coded UI Test using Microsoft Visual Studio 2013</a>
+              </li><li>
+                <a href="/testing/selenium-essentials">Selenium Essentials</a>
+              </li></ul>
+              </li>
+      </ul>
+    </nav>
+  </div><!--Bottom Header End-->
+</header>
+
+
+
+<!-- <header class="site-header">
 
   <div class="wrapper">
 
@@ -24,4 +389,4 @@
 
   </div>
 
-</header>
+</header> -->

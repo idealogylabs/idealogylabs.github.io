@@ -1,6 +1,291 @@
 ---
 layout: default
 ---
+<!--Pop up requestcallback begin-->
+  <div class="modal fade" id="requestcallback" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title">Request a Call Back</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal form-gist">
+            <div class="form-group">
+              <div class="col-sm-6">
+                <label for="r_name" class="control-label">Name</label>
+                <input class="form-control" type="text" id="r_name" name="r_name" placeholder="Enter Name" />
+                <div class="text-error text-left hide" id="r_name_error"></div>
+              </div>
+              <div class="col-sm-6">
+                <label for="r_email" class="control-label">Email Address</label>
+                <input class="form-control" type="email" id="r_email" name="r_email" placeholder="Email ID" />
+                <div class="text-error text-left hide" id="r_email_error"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                <label for="r_course" class="control-label">Course</label>
+                <select class="form-control" id="r_course" name="r_course">
+                  <option value=""></option>
+                </select>
+                <div class="text-error text-left hide" id="r_course_error"></div>
+              </div>
+              <div class="col-sm-6">
+                <label for="r_country" class="control-label">Country</label>
+                <select class="form-control" id="r_country" name="r_country">
+                  <option value=""></option>
+                </select>
+                <div class="text-error text-left hide" id="r_country_error"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                <label for="r_city" class="control-label">City</label>
+                <select class="form-control" id="r_city" name="r_city">
+                  <option value=""></option>
+                </select>
+                <div class="text-error text-left hide" id="r_city_error"></div>
+              </div>
+              <div class="col-sm-6">
+                <label for="r_phone" class="control-label">Contact Number (ISD Code is not required)</label>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <input class="form-control numonly" type="text" id="r_phone_code" name="r_phone_code" disabled />
+                  </div>
+                  <div class="col-sm-9">
+                    <input class="form-control numonly" type="text" id="r_phone" name="r_phone" placeholder="Phone Number" />
+                  </div>
+                </div>
+
+                <div class="text-error text-left hide" id="r_phone_error"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                <label for="r_c_name" class="control-label">Company Name</label>
+                <input class="form-control" type="text" id="r_c_name" name="r_c_name" placeholder="Company Name" />
+              </div>
+              <div class="col-sm-6">
+                <label for="r_message" class="control-label">Message</label>
+                <textarea class="form-control" rows="2" id="r_message" name="r_message" placeholder="Message"></textarea>
+                <div class="text-error text-left hide" id="r_message_error"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 col-sm-offset-9">
+                <button type="button" class="btn btn-red btn-block" id="send_btn">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Pop up requestcallback end-->
+
+  <!-- Modal for My Support Start-->
+    <div class="modal fade support_form" id="my_support_popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" >My Support</h4>
+        </div>
+        <div class="modal-body">
+        <form  role="form" class="form-horizontal" method="POST" onSubmit="return false;" id="my_support">
+          <div class="form-group">
+            <div class="col-sm-6">
+              <input class="form-control" placeholder="Name" id="support_name" name="support_name" />
+              <div class="text-error text-left hide" id="support_name_error"></div>
+            </div>
+
+            <div class="col-sm-6">
+              <input class="form-control" placeholder="Email" id="support_email" name="support_email" />
+              <div class="text-error text-left hide" id="support_email_error"></div>
+            </div>
+
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <textarea class="form-control" rows="4" placeholder="Query" id="support_message" name="support_message" ></textarea>
+              <div class="text-error text-left hide" id="support_message_error"></div>
+            </div>
+
+          </div>
+          <div class="form-group pull-right col-sm-3">
+            <button class="btn btn-danger btn-block" id="submit_support">Submit</button>
+          </div>
+         </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  <!-- Modal for My Support End-->
+
+<!--Pop up requestcallback error begin-->
+  <div class="modal fade" id="call_back_error" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <span id="request_error"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Pop up requestcallback end-->
+<!--header End-->
+<script>
+function header_search(){
+  if($('#desktop-q').val()!="")
+    return true;
+  else
+    return false;
+}
+</script>
+    <!-- END HEADER -->
+    <!--banner Begin-->
+    <section class="bg-banner display-table" id="bg-one" data-stellar-background-ratio="0.5">
+      <div class="master-skills table-center text-center">
+        <h1>Bring Ideas to </br> Life!</h1>
+        <!-- <h1>ACCELERATE YOUR <br> StartUp </h1> -->
+<!--         <form class="form-inline" action="/search" onSubmit="return form_search()">
+          <div class="search-course clearfix">
+            <div class="typeahead-container">
+              <div class="typeahead-field ">
+                <span class="typeahead-query input-group">
+                  <input id="desktop-search" name="q" class="form-control" type="search" placeholder="Type the course name here.." autocomplete="off" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger btn-lg" type="submit"><i class="fa fa-search hidden-sm hidden-md hidden-lg"></i> <span class="hidden-xs">Search</span></button>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </form> -->
+      </div>
+    </section><!--banner End-->
+    <!--training classroom Begin -->
+    <section class="training-classroom container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-no-pad text-center">
+          <a href="/" class="classroom">
+            <span>
+              <i class="icon icon-training icon-classroom"></i>
+            </span>
+            <h3>StartUp Acceleration</h3>
+            <p>StartUp Accelerator Program helps startup quickly mould the product. We promise 45 days MVP delivery*</p>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-no-pad text-center">
+          <a href="/" class="virtual">
+            <span>
+              <i class="icon icon-training icon-virtual"></i>
+            </span>
+            <h3>Product Development</h3>
+            <p>We offer state-of-the-art product development facilities and (refined) processes</p>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-no-pad text-center">
+          <a href="/" class="e-learning">
+            <span>
+              <i class="icon icon-training icon-e-learning"></i>
+            </span>
+            <h3>CoE | R&D</h3>
+            <p>
+              Our Center of Excellences in various technology domains are here to help.
+              We offer proven track record and expertise in Technology Research and Development.
+            </p>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-no-pad text-center">
+          <a href="/" class="corporate">
+            <span>
+              <i class="icon icon-training icon-corporate"></i>
+            </span>
+            <h3>Extended Teams</h3>
+            <p>Forget off-shoring pain, opt for extended teams and facilities. Own your team</p>
+          </a>
+        </div>
+
+      </div>
+    </section><!--training classroom End -->
+    <!--over 100 courses Begin -->
+    <section class="over-courses display-table" id="bg-two" data-stellar-background-ratio="0">
+      <div class="table-center text-center">
+        <h1>Technology Domains</h1>
+        <span class="header-caption">Set yourself up for success with our domain expertise and CoE</span>
+        <ul class="course_enroll text-uppercase">
+          <li><span>Cloud Development</span></li>
+          <li><span>CyberSecurity</span></li>
+          <li><span>Mobility</span></li>
+          <li><span>Startup Acceleration</span></li>
+          <li><span>Extended Teams</span></li>
+        </ul>
+        <a href="/technology" class="btn btn-red">browse domains</a>
+      </div>
+    </section><!--over 100 courses End -->
+    <!--Instructor begin-->
+    <section class="instructor" id="bg-three" data-stellar-background-ratio="0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6">
+            <div class="instructor-center">
+              <h1>Sky is the limit in technology driven world!</h1>
+              <p>Expand the boundaries of your technology knowledge and use it for one's benefit</p>
+              <a href="/" class="btn btn-red">Become our partner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Instructor End-->
+    <!--our office Begin-->
+    <section class="our-office hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="text-center">OUR PRESENCE</h1>
+            <div class="row">
+              <div class="world-map">
+                <div id="op-canada" class="our-presence canada">
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-usa" class="our-presence usa" >
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-uk" class="our-presence uk">
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-mea" class="dotted-round mea">
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-india" class="dotted-round india">
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-singapore" class="dotted-round singapore" >
+                  <span class="icon icon-dotted"></span>
+                </div>
+                <div id="op-australia" class="dotted-round australia" >
+                  <span class="icon icon-dotted"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--our office end-->
+
+    <!-- BEGIN FOOTER -->
+    <!--footer begin-->
+
+<!-- ---
+layout: default
+---
 
 <div class="home">
 
@@ -20,4 +305,4 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</div> -->

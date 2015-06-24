@@ -1,14 +1,17 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: "Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Ruby, Rails, Go, Elixir/Erlang, JavaScript, NodeJS, Security and Cloud Implementation"
+email: contact@idealogylabs.com
+# description: > # Agile Development, Startup Acceleration, Product Development, Extended Teams,  
+# Web Development, Cloud/Mobility Development, CyberSecurity, Rails Development, Ruby on Rails Development, 
+# Go Development, Elixir/Erlang VM Development, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://idealogylabs.com" # the base hostname & protocol for your site
+twitter_url: https://twitter.com/idealogylabs
+github_url:  https://github.com/idealogylabs
+facebook_url: https://www.facebook.com/idealogylabs
+linkedin_url: https://www.linkedin.com/company/3685720
+company: IdealogyLabs Technologies Pvt Ltd
+brandname: IdealogyLabs
 
 # Build settings
 markdown: kramdown
