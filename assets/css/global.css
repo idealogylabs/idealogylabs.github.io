@@ -1391,3 +1391,25 @@ h1.navbar-brand{
 
 	webinar, video and trainer end
 	_______________________________________  */
+.home{
+	margin: 0 50px;
+}
+.home h2{
+	text-transform: none;
+}
+article.post{
+	margin: 0 0 20px;
+}
+.post{
+  margin: 10px 50px 0;
+} 
+.post .post-header .post-title{
+	margin-bottom: 3px;
+}
+.post .post-header{
+	margin-bottom: 10px;
+}
+.post .post-content p{
+	margin: 10px 0px;
+}
+

@@ -693,13 +693,28 @@
       else
         return false;
       }
+      function active_path(){
+        var path = window.location.pathname;
+        var navtabs = $('ul.nav');
+        if(path.indexOf('blog') > -1)
+          navtabs.find('a[href="/blog"]').parents('li').addClass('active');
+        else if(path.indexOf('contact-us') > -1)
+          navtabs.find('a[href="/contact-us"]').parents('li').addClass('active');
+        else if (path.indexOf('about-us') > -1)
+          navtabs.find('a[href="/about-us"]').parents('li').addClass('active');
+        else if((path.indexOf('center-of-excellences') > -1) || (path.indexOf('domains') > -1))
+          navtabs.find('a#technologies').parents('li').addClass('active');
+        else if((path.indexOf('startup-acceleration') > -1) || (path.indexOf('product-development') > -1) || (path.indexOf('extended-teams') > -1) || (path.indexOf('cyber-security') > -1) || (path.indexOf('digital-image-branding') > -1))
+          navtabs.find('a#services').parents('li').addClass('active');
+      }
       $(document).ready(function () {
         var flash_message='';
         if(flash_message!=''){
           $('#content').html(flash_message);
           $('#alert_message').modal('show');
         }
-               });
+        active_path();
+      });
     </script>
     <script type="text/javascript">
 // On click of wishlist

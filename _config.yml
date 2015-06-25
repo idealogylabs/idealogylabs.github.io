@@ -1,9 +1,9 @@
 # Site settings
 title: "Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Ruby, Rails, Go, Elixir/Erlang, JavaScript, NodeJS, Security and Cloud Implementation"
 email: contact@idealogylabs.com
-# description: > # Agile Development, Startup Acceleration, Product Development, Extended Teams,  
-# Web Development, Cloud/Mobility Development, CyberSecurity, Rails Development, Ruby on Rails Development, 
-# Go Development, Elixir/Erlang VM Development, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
+description: > # Agile Development, Startup Acceleration, Product Development, Extended Teams,  
+  Web Development, Cloud/Mobility Development, CyberSecurity, Rails Development, Ruby on Rails Development, 
+  Go Development, Elixir/Erlang VM Development, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://idealogylabs.com" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/idealogylabs
@@ -12,6 +12,7 @@ facebook_url: https://www.facebook.com/idealogylabs
 linkedin_url: https://www.linkedin.com/company/3685720
 company: IdealogyLabs Technologies Pvt Ltd
 brandname: IdealogyLabs
+permalink: /blog/:categories/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
