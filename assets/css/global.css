@@ -1398,7 +1398,10 @@ h1.navbar-brand{
 	text-transform: none;
 }
 article.post{
-	margin: 0 0 20px;
+	margin: 0 0 30px;
+}
+article.post h2{
+	margin-bottom: 20px;
 }
 .post{
   margin: 10px 50px 0;
