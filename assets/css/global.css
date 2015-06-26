@@ -865,7 +865,16 @@ h1.course_head small { color: #f5f4f4; text-transform: capitalize; }
 	_______________________________________  */     
 	
 .course-categories .navbar-brand{ font-size: 14px; color: #333333} 
-.classroom_detail, .virtual_detail, .e-learning_detail, .webinar_detail, .allcourse_detail { background-image: url('../img/banner/course-detail.png');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.startup_detail{ background-image: url('../img/banner/startup.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.product_detail{ background-image: url('../img/banner/product_dev.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.extended_teams_detail{ background-image: url('../img/banner/extended_teams.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.cyber_security_detail{ background-image: url('../img/banner/networkSecurity.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.branding_detail{ background-image: url('../img/banner/branding.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.coe_detail{ background-image: url('../img/banner/video-banner-poster.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.domains_detail{ background-image: url('../img/banner/technology_domains.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.contact_us_detail{ background-image: url('../img/banner/contact_us.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.about_us_detail{ background-image: url('../img/banner/about_us.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+/*.classroom_detail, .virtual_detail, .e-learning_detail, .webinar_detail, .allcourse_detail { background-image: url('../img/banner/course-detail.jpg');  background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }*/
 /*.classroom_overlay { background-color: rgba(136, 130, 168, 0.5); padding: 0 0 15px; min-height: 395px; }
 .virtual_overlay { background-color: rgba(82, 202, 141, 0.5); padding: 0 0 15px; min-height: 395px; }
 .e-learning_overlay { background-color: rgba(60, 192, 207, 0.5); padding: 0 0 15px; min-height: 395px; }
