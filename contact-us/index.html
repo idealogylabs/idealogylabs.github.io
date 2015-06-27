@@ -1,44 +1,156 @@
 ---
-layout: page
+layout: default
+title: Contact Us | Idea Inbox
 ---
-<section class="contact_us_detail">
-  <div class="allcourse_overlay">
+<!-- Partner Begin-->
+<section class="static-pages-header contact_us_detail">
+  <!--breadcrumb begin-->
   <ol class="breadcrumb container-fluid">
-    <li><a href="/">Home</a></li>
-    <li><a href="/services">Services</a></li>
-    <li class="active">Domains</li>
+    <li ><a href="/">Home</a></li>
+    <li class="active">Contact Us</li>
   </ol>
+  <!--breadcrumb end-->
+  <h1>Inbox Your</br> Idea!</h1>
+</section>
+<section class="static-pages-container">
   <div class="container">
     <div class="row">
-      <div class="col-md-9 col-sm-12">
-        <div class="course-description">
-          <h1 class="course_head">Domains</h1>
-          <ul class="nav_location clearfix">
-            <li><a target="_blank" href="{{ site.facebook_url }}" rel="nofollow"><i class="fa fa-facebook"></i> </a></li>
-            <li><a target="_blank" href="{{ site.twitter_url }}" rel="nofollow"><i class="fa fa-twitter"></i> </a></li>
-            <li><a target="_blank" href="{{ site.google_plus_url }}" rel="nofollow"><i class="fa fa-google-plus"></i> </a></li>
-            <li><a target="_blank" href="{{ site.linkedin_url }}" rel="nofollow"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-          <ul class="course_specfication">
-            <li>Ideation: Curate ideas, decide MVP</li>               
-            <li>Modeling: Build idea using our in-house expertise and team</li>                
-            <li>Accelerate: Throw MVP in market to judge response end-users/clients</li>                
-            <li>Iterate: Iterate with client designed Sprint</li>                
-            <li>Launch: Launch developed viable product in Market</li>               
-            <li>Technical expertise with cutting edge technologies</li>              
-          </ul>
-        </div>
-      </div>
-      
-      <div class="col-md-12 col-sm-8">
-        <ul class="nav nav-justified nav-list">
-          <li><a href="#request-inhouse" data-toggle="modal"><i class="fa fa-pencil"></i> Ask Us</a></li>
-          <li><a href="" target="_blank"><i class="fa fa-download"></i> White Paper</a></li>
-          <li><a href="" data-toggle="modal"><i class="fa fa-users"></i> Partner With Us</a></li>
-      <!--  <li><a href="#subscribe-newsletter" data-toggle="modal"><i class="fa fa-newspaper-o"></i> Subscribe Newsletter</a></li>   -->
+      <div class="col-md-3 col-sm-3">
+        <!-- Nav tabs Start-->
+        <ul class="nav ul-lists" id="nav-aside-tabs" role="tablist">
+          <li role="presentation"  class="active" >
+            <a href="#reach_us" class="scroll-tab" aria-controls="reach_us" role="tab" data-toggle="tab">Contact US</a>
+          </li>
+          <li role="presentation" >
+            <a href="#contact_form" class="scroll-tab" aria-controls="contact_form" role="tab" data-toggle="tab">Enquire</a>
+          </li>
         </ul>
+        <!-- Nav tabs End-->
       </div>
+      <!-- Tab panes Start-->
+      <div class="col-md-9 col-sm-9 tab-content">
+        <!-- Become An Instructor Start-->
+        <div role="tabpanel" class="tab-pane " id="reach_us">
+          <h1>Connect with Us</h1>
+          <div role="tabpanel">
+            <!-- Nav tabs Content Start -->
+            <div class="become-partner" >
+              <div class="section">
+                <h4>Connect with us</h4>
+                <p>
+                  Inbox your Idea at <a href="mailto:connect@idealogylabs.com">connect@idealogylabs.com</a> <br/>
+                  Or you could share your idea by talking to us at +91-741-6686-847
+                </p>
+              </div>
+              <div class="section">
+                <h4 id="benefits">Reach Us</h4>
+                <p>We primarily focus on; expertise in domains as listed (including but not limited to)</p>
+                <ul>
+                  <li>Idealogy Labs Technologies Pvt. Ltd.</li> 
+                  <li>2nd Floor, C4, Vindhya Block</li>
+                  <li>IIIT Incubation center, Hyderabad, India</li>
+                  <li>Phone: +91.741.668.6847</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Nav tabs Content End -->
+          </div>
+        </div>
+        <!-- Become An Instructor End-->
+        <!-- Partnership Interest Form -->
+        <div role="tabpanel" class="tab-pane " id="contact_form">
+          <h1>Enquire</h1>
+
+          <form  role="form" class="form-horizontal" method="POST" onSubmit="return false;" id="partnership_email">
+            <div class="form-group">  
+              <div class="col-md-4">
+                <label > First Name </label>
+                <input  type="text"  class="form-control" name="pe_first_name" id="pe_first_name" />
+                <div class="text-error text-left hide" id="pe_first_name_error"></div>
+              </div>
+
+              <div class="col-md-4">
+                <label >Last Name</label>
+                <input  type="text"  class="form-control" name="pe_last_name" id="pe_last_name" />
+                <div class="text-error text-left hide" id="pe_last_name_error"></div>
+              </div>
+
+              <div class="col-md-4">
+                <label >Designation</label>
+                <input  type="text"  class="form-control" name="pe_job_title" id="pe_job_title" />
+              </div>
+            </div>
+            <div class="form-group">  
+              <div class="col-md-4">
+                <label > Email </label>
+                <input  type="text"  class="form-control" name="pe_email" id="pe_email" />
+                <div class="text-error text-left hide" id="pe_email_error"></div>
+              </div>
+
+              <div class="col-md-4">
+                <label >Company</label>
+                <input  type="text"  class="form-control" name="pe_company" id="pe_company" />
+              </div>
+              
+              <div class="col-md-4">
+                <label > Best classifies your interest </label>
+                <select class="form-control" name="pe_best_classifies" id="pe_best_classifies" >
+                  <option value="">--Select--</option>
+                  <option value="StartUp">StartUp Acceleration</option>
+                  <option value="Product Development">Product Development</option>
+                  <option value=""></option>
+                  <option value="IT/Cloud Infrastructure management">IT/Cloud Infrastructure management</option>
+                  <option value="Extended Teams">Extended Teams</option>
+                  <option value="Cyber Security Services">Cyber Security Services</option>
+                  <option value="Cloud/Mobility Development">Cloud/Mobility Development</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">  
+
+              <div class="col-md-4">
+                <label >Country</label>
+                <input class="form-control" type="text" id="pe_country" name="pe_country" />
+                <div class="text-error text-left hide" id="pe_country_error"></div>
+              </div>
+
+              <div class="col-md-4">
+                <label >City</label>
+                <input class="form-control" type="text" id="pe_city" name="pe_city" />
+                <div class="text-error text-left hide" id="pe_city_error"></div>
+              </div>
+              
+              <div class="col-md-4">
+                <label >Phone</label>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <input class="form-control numonly" type="text" id="pe_phone_code" name="pe_phone_code" disabled />
+                  </div>
+                  <div class="col-sm-8">
+                    <input class="form-control numonly" type="text" id="pe_phone_number" name="pe_phone_number" />
+                  </div>
+                </div>
+                <div class="text-error text-left hide" id="pe_phone_number_error"></div>
+              </div>
+            </div>
+            <div class="form-group">  
+              <div class="col-md-12">
+                <label >Message</label>
+                <textarea class="form-control" rows="6" name="pe_message" id="pe_message" /></textarea>
+                <div class="text-error text-left hide" id="pe_message_error"></div>
+                <button class="btn btn-danger btn-lg"  id="submit_partnership_email">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <!-- Partnership Interest End -->
+      </div>
+      <!-- Tab panes End -->
     </div>
   </div>
-  </div>
 </section>
+<!-- Partner End-->

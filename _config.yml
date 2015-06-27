@@ -1,9 +1,9 @@
 # Site settings
-title: "Idealogy Labs - Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Ruby, Rails, Go, Elixir/Erlang, JavaScript, NodeJS, Security and Cloud Implementation"
-email: contact@idealogylabs.com
+title: "Idealogy Labs - Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Cloud Infrastructure Implementation and Automation"
+email: connect@idealogylabs.com
 description: > # Agile Development, Startup Acceleration, Product Development, Extended Teams,  
-  Web Development, Cloud/Mobility Development, CyberSecurity, Rails Development, Ruby on Rails Development, 
-  Go Development, Elixir/Erlang VM Development, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
+  Web Development, Cloud/Mobility Development, CyberSecurity, Rails Experts, Ruby on Rails Experts, 
+  Go Experts, Elixir/Erlang VM Experts, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://idealogylabs.com" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/idealogylabs
