@@ -60,45 +60,44 @@ title: Contact Us | Idea Inbox
         <!-- Partnership Interest Form -->
         <div role="tabpanel" class="tab-pane " id="contact_form">
           <h1>Enquire</h1>
-
-          <form  role="form" class="form-horizontal" method="POST" onSubmit="return false;" id="partnership_email">
+          <!-- http://128.199.81.20 -->
+          <form role="form" class="form-horizontal" method="POST" id="partnership_email" action="http://128.199.81.20">
             <div class="form-group">  
               <div class="col-md-4">
                 <label > First Name </label>
-                <input  type="text"  class="form-control" name="pe_first_name" id="pe_first_name" />
+                <input  type="text"  class="form-control" name="first_name" id="pe_first_name" />
                 <div class="text-error text-left hide" id="pe_first_name_error"></div>
               </div>
 
               <div class="col-md-4">
                 <label >Last Name</label>
-                <input  type="text"  class="form-control" name="pe_last_name" id="pe_last_name" />
+                <input  type="text"  class="form-control" name="last_name" id="pe_last_name" />
                 <div class="text-error text-left hide" id="pe_last_name_error"></div>
               </div>
 
               <div class="col-md-4">
                 <label >Designation</label>
-                <input  type="text"  class="form-control" name="pe_job_title" id="pe_job_title" />
+                <input  type="text"  class="form-control" name="job_title" id="pe_job_title" />
               </div>
             </div>
             <div class="form-group">  
               <div class="col-md-4">
                 <label > Email </label>
-                <input  type="text"  class="form-control" name="pe_email" id="pe_email" />
+                <input  type="text"  class="form-control" name="email" id="pe_email" />
                 <div class="text-error text-left hide" id="pe_email_error"></div>
               </div>
 
               <div class="col-md-4">
                 <label >Company</label>
-                <input  type="text"  class="form-control" name="pe_company" id="pe_company" />
+                <input  type="text"  class="form-control" name="company" id="pe_company" />
               </div>
               
               <div class="col-md-4">
                 <label > Best classifies your interest </label>
-                <select class="form-control" name="pe_best_classifies" id="pe_best_classifies" >
+                <select class="form-control" name="interests" id="pe_best_classifies" >
                   <option value="">--Select--</option>
                   <option value="StartUp">StartUp Acceleration</option>
                   <option value="Product Development">Product Development</option>
-                  <option value=""></option>
                   <option value="IT/Cloud Infrastructure management">IT/Cloud Infrastructure management</option>
                   <option value="Extended Teams">Extended Teams</option>
                   <option value="Cyber Security Services">Cyber Security Services</option>
@@ -111,13 +110,13 @@ title: Contact Us | Idea Inbox
 
               <div class="col-md-4">
                 <label >Country</label>
-                <input class="form-control" type="text" id="pe_country" name="pe_country" />
+                <input class="form-control" type="text" id="pe_country" name="country" />
                 <div class="text-error text-left hide" id="pe_country_error"></div>
               </div>
 
               <div class="col-md-4">
                 <label >City</label>
-                <input class="form-control" type="text" id="pe_city" name="pe_city" />
+                <input class="form-control" type="text" id="pe_city" name="city" />
                 <div class="text-error text-left hide" id="pe_city_error"></div>
               </div>
               
@@ -125,10 +124,10 @@ title: Contact Us | Idea Inbox
                 <label >Phone</label>
                 <div class="row">
                   <div class="col-sm-4">
-                    <input class="form-control numonly" type="text" id="pe_phone_code" name="pe_phone_code" disabled />
+                    <input class="form-control numonly" type="text" id="pe_phone_code" name="phone_code" disabled />
                   </div>
                   <div class="col-sm-8">
-                    <input class="form-control numonly" type="text" id="pe_phone_number" name="pe_phone_number" />
+                    <input class="form-control numonly" type="text" id="pe_phone_number" name="phone_number" />
                   </div>
                 </div>
                 <div class="text-error text-left hide" id="pe_phone_number_error"></div>
@@ -137,7 +136,7 @@ title: Contact Us | Idea Inbox
             <div class="form-group">  
               <div class="col-md-12">
                 <label >Message</label>
-                <textarea class="form-control" rows="6" name="pe_message" id="pe_message" /></textarea>
+                <textarea class="form-control" rows="6" name="message" id="pe_message" /></textarea>
                 <div class="text-error text-left hide" id="pe_message_error"></div>
                 <button class="btn btn-danger btn-lg"  id="submit_partnership_email">
                   Submit
