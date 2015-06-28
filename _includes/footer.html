@@ -232,6 +232,9 @@
           $('#alert_message').modal('show');
         }
         active_path();
+        if (window.location.search.indexOf('submission=success') > -1) {
+          alert('Inquiry submitted. We will reach you back soon. Thank you for your interest');
+        }
       });
     </script>
     <script type="text/javascript">
