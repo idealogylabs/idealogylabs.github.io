@@ -383,88 +383,84 @@ function validateEmail(email){
 }
 
  $(document).ready(function () {
-	get_country();
-	get_course();
-	$('#request_for_call_back').on('click',function(){
-		$('.text-error').addClass('hide');
-		$('#r_name').val('');$('#r_email').val('');$('#r_course').val('');$('#r_country').val('');$('#r_city').val('');$('#r_phone').val('');$('#r_c_name').val('');$('#r_message').val('');
-	});
-	$('#send_btn').on('click',function(){
-	$('.text-error').addClass('hide');
-	var prefix=$('#prefix').val(),r_name=$('#r_name').val(),r_email=$('#r_email').val(),r_course=$('#r_course').val(),r_country=$('#r_country').val(),r_city=$('#r_city').val(),r_phone=$('#r_phone').val(),r_c_name=$('#r_c_name').val(),r_message=$('#r_message').val();
-		if(r_name!='' && r_email!='' && r_phone!='' && r_phone.length>6 && r_message!='' && (r_course!='') && (r_country!='') && (r_city!='') && validateEmail(r_email)){
-		$('#send_btn').attr('disabled','disabled');
-		$('#send_btn').attr('value','Sending');
-			$.ajax({
-				url: prefix+'/auth/request_for_call_back',
-				type: 'POST',
-				data:{'r_name':r_name,'r_email':r_email,'r_course':r_course,'r_country':r_country,'r_city':r_city,'r_phone':r_phone,'r_c_name':r_c_name,'r_message':r_message},
-				dataType: 'json'
-			}).done(function(data){
-				if(data){
-					$('#requestcallback').modal('hide');
-					$('#call_back_error').modal('show');
-					$('#request_error').html('Request sent successfully');
-					$('#request_error').removeClass('text-error');
-					$('#request_error').addClass('text-success');
-					$('#send_btn').attr('disabled',false);
-				}else{
-					$('#requestcallback').modal('hide');
-					$('#call_back_error').modal('show');
-					$('#request_error').html('Request not sent');
-					$('#request_error').removeClass('text-success');
-					$('#request_error').addClass('text-error');
-					$('#send_btn').attr('disabled',false);
-				}
-			}).always(function(){
-						ga('create', 'UA-26040453-1');
-						ga('send', 'event', 'category-Request call back', 'action-Submit', 'label-call back  submit'); // signal GA that this is an event
-			});
-		}else{
-			if(r_name==''){
-				$('#r_name_error').html('Please enter your Name');
-				$('#r_name_error').removeClass('hide');
-			}
-			if(r_message==''){
-				$('#r_message_error').html('Please enter your Message');
-				$('#r_message_error').removeClass('hide');
-			}
-			if(r_course==''){
-				$('#r_course_error').html('Please select a Course');
-				$('#r_course_error').removeClass('hide');
-			}
-			if(r_country==''){
-				$('#r_country_error').html('Please select your Country');
-				$('#r_country_error').removeClass('hide');
-			}
-			if(r_city==''){
-				$('#r_city_error').html('Please select your City');
-				$('#r_city_error').removeClass('hide');
-			}
-			if(r_email==''){
-				$('#r_email_error').html('Please enter your Email-id');
-				$('#r_email_error').removeClass('hide');
-			}
-			if(!validateEmail(r_email) && r_email!=''){
-				$('#r_email_error').html('Entered Email-id is invalid');
-				$('#r_email_error').removeClass('hide');
-			}
-			if(r_phone==''){
-				$('#r_phone_error').html('Please enter your Phone number');
-				$('#r_phone_error').removeClass('hide');
-			}
-			if(r_phone.length<=6 && r_phone!=''){
-				$('#r_phone_error').html('Entered Phone number is invalid');
-				$('#r_phone_error').removeClass('hide');
-			}
+	// get_country();
+	// get_course();
+	// $('#request_for_call_back').on('click',function(){
+	// 	$('.text-error').addClass('hide');
+	// 	$('#r_name').val('');$('#r_email').val('');$('#r_course').val('');$('#r_country').val('');$('#r_city').val('');$('#r_phone').val('');$('#r_c_name').val('');$('#r_message').val('');
+	// });
+	// $('#send_btn').on('click',function(){
+	// $('.text-error').addClass('hide');
+	// var prefix=$('#prefix').val(),r_name=$('#r_name').val(),r_email=$('#r_email').val(),r_course=$('#r_course').val(),r_country=$('#r_country').val(),r_city=$('#r_city').val(),r_phone=$('#r_phone').val(),r_c_name=$('#r_c_name').val(),r_message=$('#r_message').val();
+	// 	if(r_name!='' && r_email!='' && r_phone!='' && r_phone.length>6 && r_message!='' && (r_course!='') && (r_country!='') && (r_city!='') && validateEmail(r_email)){
+	// 	$('#send_btn').attr('disabled','disabled');
+	// 	$('#send_btn').attr('value','Sending');
+	// 		$.ajax({
+	// 			url: prefix+'/auth/request_for_call_back',
+	// 			type: 'POST',
+	// 			data:{'r_name':r_name,'r_email':r_email,'r_course':r_course,'r_country':r_country,'r_city':r_city,'r_phone':r_phone,'r_c_name':r_c_name,'r_message':r_message},
+	// 			dataType: 'json'
+	// 		}).done(function(data){
+	// 			if(data){
+	// 				$('#requestcallback').modal('hide');
+	// 				$('#call_back_error').modal('show');
+	// 				$('#request_error').html('Request sent successfully');
+	// 				$('#request_error').removeClass('text-error');
+	// 				$('#request_error').addClass('text-success');
+	// 				$('#send_btn').attr('disabled',false);
+	// 			}else{
+	// 				$('#requestcallback').modal('hide');
+	// 				$('#call_back_error').modal('show');
+	// 				$('#request_error').html('Request not sent');
+	// 				$('#request_error').removeClass('text-success');
+	// 				$('#request_error').addClass('text-error');
+	// 				$('#send_btn').attr('disabled',false);
+	// 			}
+	// 		}).always(function(){
+	// 					ga('create', 'UA-26040453-1');
+	// 					ga('send', 'event', 'category-Request call back', 'action-Submit', 'label-call back  submit'); // signal GA that this is an event
+	// 		});
+	// 	}else{
+	// 		if(r_name==''){
+	// 			$('#r_name_error').html('Please enter your Name');
+	// 			$('#r_name_error').removeClass('hide');
+	// 		}
+	// 		if(r_message==''){
+	// 			$('#r_message_error').html('Please enter your Message');
+	// 			$('#r_message_error').removeClass('hide');
+	// 		}
+	// 		if(r_course==''){
+	// 			$('#r_course_error').html('Please select a Course');
+	// 			$('#r_course_error').removeClass('hide');
+	// 		}
+	// 		if(r_country==''){
+	// 			$('#r_country_error').html('Please select your Country');
+	// 			$('#r_country_error').removeClass('hide');
+	// 		}
+	// 		if(r_city==''){
+	// 			$('#r_city_error').html('Please select your City');
+	// 			$('#r_city_error').removeClass('hide');
+	// 		}
+	// 		if(r_email==''){
+	// 			$('#r_email_error').html('Please enter your Email-id');
+	// 			$('#r_email_error').removeClass('hide');
+	// 		}
+	// 		if(!validateEmail(r_email) && r_email!=''){
+	// 			$('#r_email_error').html('Entered Email-id is invalid');
+	// 			$('#r_email_error').removeClass('hide');
+	// 		}
+	// 		if(r_phone==''){
+	// 			$('#r_phone_error').html('Please enter your Phone number');
+	// 			$('#r_phone_error').removeClass('hide');
+	// 		}
+	// 		if(r_phone.length<=6 && r_phone!=''){
+	// 			$('#r_phone_error').html('Entered Phone number is invalid');
+	// 			$('#r_phone_error').removeClass('hide');
+	// 		}
 			
-		}
+	// 	}
 		
-	});
-	
-	
-	
-	
+	// });
 });
 	$(".numonly").keydown(function (e) {
         // Allow: backspace, delete, tab, escape, enter and .
