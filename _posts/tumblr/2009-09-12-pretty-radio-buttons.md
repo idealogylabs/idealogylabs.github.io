@@ -6,6 +6,7 @@ tags:
 - JavaScript
 - jQuery
 tumblr_url: http://bagwanpankaj.com/post/29191361119/pretty-radio-buttons
+author: Pankaj B
 ---
 This tutorial is an extension of Aaron’s blog.  This tutorial shows how to implement radio button using checkboxes and css with the help of jQuery.    
 

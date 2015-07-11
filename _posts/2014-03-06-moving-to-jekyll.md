@@ -5,6 +5,7 @@ tags:
 - blog
 - static site
 - jekyll
+author: Pankaj B
 ---
 
 I am an avid blogger since long and pretty much used every DIY blogging engine, out there, naming few

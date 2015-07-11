@@ -6,6 +6,8 @@ tags:
 - language
 - goroutine
 - concurrency
+author: Pankaj B
+category: golang
 ---
 
 In last [part](/go-to-go-concurrency), we talked about `goroutines` and channels. As discussed there is much more to channels, liked channel direction, by default a channel is bi-directional, but it can be restricted to sending or receiving.

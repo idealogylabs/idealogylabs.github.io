@@ -3,6 +3,8 @@ layout: post
 title:  "Quote Unquote"
 date:   2014-03-01 21:54:30
 tags: quote unquote
+author: Pankaj B
+category: elixir
 ---
 
 Most functional languages are great in treating/presenting everything as data.

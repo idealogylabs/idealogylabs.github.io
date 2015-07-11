@@ -11,6 +11,7 @@ tags:
 categories:
 - database
 - scaling
+author: Pankaj B
 ---
 
 Indexes are most commonly related to improving database speed, query efficiency and lowering latency. As in wikipedia

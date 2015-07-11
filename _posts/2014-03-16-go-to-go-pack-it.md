@@ -5,6 +5,8 @@ tags:
 - go
 - language
 - packeage
+author: Pankaj B
+category: golang
 ---
 
 Go is modern language, so it has to take care of current software development practices; code reuse or DRY (Don't Repeat Yourself) being one of them. In go code can be packed into modules and shipped. Lets look into how go uses packages.

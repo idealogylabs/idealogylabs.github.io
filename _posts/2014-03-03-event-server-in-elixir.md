@@ -3,6 +3,8 @@ layout: post
 title:  "Introducing Event Server"
 date:   2014-03-03 20:10:14
 tags:   ["otp", "behaviour", "elixir", "erlang", "event"]
+author: Pankaj B
+category: elixir
 ---
 
 So very first behaviour server of OTP that we are gonna look in is Generic(I am guessing what gen means in erlang) event server.

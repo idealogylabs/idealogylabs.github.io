@@ -3,6 +3,8 @@ layout: post
 title:  "First real world example"
 date:   2014-02-28 21:54:30
 tags: introduction
+author: Pankaj B
+category: elixir
 ---
 
 I am not gonna use `hello world` example, because that is too simple and boring as well. So lets start with fibonacci series example.

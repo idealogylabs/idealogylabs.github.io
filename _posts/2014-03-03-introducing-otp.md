@@ -3,6 +3,8 @@ layout: post
 title:  "Introducing OTP"
 date:   2014-03-03 10:00:04
 tags:   ["otp", "behaviour", elixir, erlang]
+author: Pankaj B
+category: elixir
 ---
 
 Erlang system is tried and tested for years and known for fault tolerance, robustness, ditributed operation handling and concurrency. OTP, stands for Open Telecom Platform, even though there is nothing specific about telecom.

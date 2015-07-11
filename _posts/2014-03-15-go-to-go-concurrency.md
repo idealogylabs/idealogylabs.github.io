@@ -6,6 +6,8 @@ tags:
 - language
 - goroutine
 - concurrency
+author: Pankaj B
+category: golang
 ---
 
 Go came to existance to solve problems being faced by today's software, one of them is concurrency (ability to execute stuff in parellel while providing control and communication among them). To solve this go has provided goroutines to execute stuff in parallel.

@@ -6,6 +6,8 @@ tags:
 - language
 - struct
 - methods
+author: Pankaj B
+category: golang
 ---
 
 Go has a speciel type `struct` to define custome type with named fields. Struct act like collection of

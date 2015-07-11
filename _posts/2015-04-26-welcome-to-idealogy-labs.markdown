@@ -8,6 +8,7 @@ tags:
 - startup accelarators
 categories:
 - productivity
+author: Pankaj B
 ---
 
 Today we are excited to announce the inception of "Idealogy Labs". We are bunch of technology enthusiast, having rigorous experience in several technology domains from CMS, to ERP, to medical, to risk management and list does not stop here.

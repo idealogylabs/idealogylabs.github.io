@@ -3,6 +3,8 @@ layout: post
 title:  "Static file server"
 date:   2014-03-02 11:03:13
 tags: cdn server static
+author: Pankaj B
+category: elixir
 ---
 I made to write static file server, can be used as CDN server. Find it at [github](https://github.com/bagwanpankaj/web_share)
 

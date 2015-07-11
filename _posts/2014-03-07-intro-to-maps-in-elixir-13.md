@@ -5,6 +5,8 @@ date:   2014-03-07 21:10:14
 tags:
 - elixir0.13
 - maps
+author: Pankaj B
+category: elixir
 ---
 
 Elixir v0.13 has introduced `Maps`, a key value store. Quoting elixir 0.13 docs

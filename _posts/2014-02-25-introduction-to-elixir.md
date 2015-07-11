@@ -3,6 +3,7 @@ layout: post
 title:  "Introduction to Elixir"
 date:   2014-02-25 21:54:30
 tags: introduction
+author: Pankaj B
 ---
 
 Elixir is a functional, meta-programming aware language that translates to Erlang VM. It is a dynamic language with flexible syntax and macro support that leverages Erlang's abilities to build concurrent, distributed and fault-tolerant applications with hot code upgrades.

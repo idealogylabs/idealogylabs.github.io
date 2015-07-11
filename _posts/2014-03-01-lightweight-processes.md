@@ -3,6 +3,8 @@ layout: post
 title:  "Lightweight Processes and spawning a proess"
 date:   2014-03-01 11:54:30
 tags: spawn process
+author: Pankaj B
+category: elixir
 ---
 
 Erlang is popular because of its lightweight processes, actors and working rightly in distributed system. Elixir brings that on Lets look
