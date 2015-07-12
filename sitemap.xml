@@ -6,230 +6,287 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://idealogylabs.com/</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/about-us/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/startup-acceleration/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/product-development/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/extended-teams/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/cyber-security/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/digital-image-branding/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/technologies/center-of-excellences.html</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/technologies/domains.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/contact-us/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/services/</loc>
-  <lastmod>2015-07-03T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2015/07/11/golang-and-mvc.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2014/03/17/go-to-go-structs-and-methods.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2014/03/16/go-to-go-pack-it.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2014/03/16/go-to-go-concurrency-2.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2014/03/15/go-to-go-concurrency.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/07/intro-to-maps-in-elixir-13.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/database/scaling/2014/03/07/indexes-do-not-scale.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/03/06/moving-to-jekyll.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/03/event-server-in-elixir.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/03/introducing-otp.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/02/cdn-server.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/01/quote-unquote.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/03/01/lightweight-processes.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/golang/2014/03/01/go-to-go.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/elixir/2014/02/28/fibonacci.html</loc>
-  <lastmod>2015-07-11T05:27:24+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/02/25/introduction-to-elixir.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/02/25/welcome-to-elixir-by-example.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/02/10/version-bump-for-humongous-a-mongodb-browser.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/01/13/authenticate-machines-not-users.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2014/01/11/what-not-to-write-in-robots-txt.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2013/08/16/risk-in-system-design.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2013/08/15/your-team-should-work-like-an-open-source-project.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2012/08/24/git-tip-1-using-stash-effectively.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2012/08/12/learning-is-like-rowing-upstream-not-to-advance.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2012/01/22/humongous-a-ruby-mongodb-browser.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/02/01/quicktips-ruby1-9-part-3-default-and-splat-arguments.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/30/quicktips-ruby1-9-part-2-basic.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/30/quicktips-ruby1-9-part-1-hash.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/29/magic-of-default-proc-in-hash.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/29/monkey-patching-done-in-a-right-way-have-some-mercy-on.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/26/jsdb-a-jit-interpreter-for-javascript.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2011/01/26/shortly-a-cleaner-ruby-wrapper-for-various-url.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2010/12/18/avataree-a-ruby-gem-for-gravatar-services.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2010/12/09/flash-silverlight-player-plugin-for-rails-3.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2010/04/17/metaprogramming-in-rails.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/productivity/2010/04/01/welcome-to-idealogy-labs.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/12/23/action-mailer-configuration-for-google-app-or-gmail.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/12/03/webrat-steps-extension-be-more-dry.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/10/17/scrum-methodology.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/10/11/what-is-rake.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/10/11/difference-between-gem-and-plugin.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/10/09/working-with-namepaced-model.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/10/06/translating-date-and-datetime-in-rails.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/09/17/new-ways-of-rendering-partials.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://idealogylabs.com/blog/2009/09/12/pretty-radio-buttons.html</loc>
-  <lastmod>2015-06-27T14:45:07+00:00</lastmod>
+  <lastmod>2015-07-12T15:59:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
