@@ -1,9 +1,16 @@
 # Site settings
-title: "Idealogy Labs - Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Cloud Infrastructure Implementation and Automation"
+title: Idealogy Labs - Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | Product Development | Extended Teams | CyberSecurity | Cloud Infrastructure Services | Mobility Services | IoT(Internet of Things) Services
 email: connect@idealogylabs.com
-description: > # Agile Development, Startup Acceleration, Product Development, Extended Teams,  
-  Web Development, Cloud/Mobility Development, CyberSecurity, Rails Experts, Ruby on Rails Experts, 
-  Go Experts, Elixir/Erlang VM Experts, Vulnerability Testing, Brute Force Testing, Technology eNabled services and trainings
+description: > # Next Generation IT Infrastructure Services and Solutions | Startup Acceleration | 
+  Product Development | Extended Teams | CyberSecurity | Cloud/Mobility Services | Cloud Infrastructure 
+  Implementation and Automation | Agile Development |  Web Development | Ruby Experts | Ruby on Rails Experts | 
+  Python Experts | Golang Experts | Elixir/Erlang Experts | MongoDB Experts | Mobile Experts | IoT(Internet of Things) 
+  Experts | Vulnerability Testing | Brute Force Testing | Technology eNabled services and trainings
+og: 
+  description: > # 
+    Agile Development |  Web Development | Ruby Experts | Ruby on Rails Experts | Python Experts | 
+    Golang Experts | Elixir/Erlang Experts | MongoDB Experts | Mobile Experts | IoT(Internet of Things) Experts | 
+    Vulnerability Testing | Brute Force Testing | Technology eNabled services and trainings
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://idealogylabs.com" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/idealogylabs
