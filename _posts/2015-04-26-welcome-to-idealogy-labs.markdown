@@ -33,7 +33,7 @@ Though we are not bound by technologies, as wel love to be up to date with moder
 
 * Ruby, Rails, RSpec, Sinatra, Padrino, Capistrano etc..
 * Python, Django, Flask etc..
-* Go, revel, goji, beego etc..
+* Golang, martini, revel, goji, beego etc..
 * JavaScript, Node.JS, Express.JS, Gulp, Grunt etc...
 * R
 * MongoDB, CouchDB, Redis etc..

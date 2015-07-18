@@ -2,8 +2,7 @@
 layout: post
 title: Go to Go - Packages
 tags:
-- go
-- language
+- golang
 - packeage
 author: Pankaj B
 category: golang

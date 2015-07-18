@@ -2,8 +2,7 @@
 layout: post
 title: Go to Go - Concurrency Part#2
 tags:
-- go
-- language
+- golang
 - goroutine
 - concurrency
 author: Pankaj B
