@@ -36,7 +36,7 @@ But these feature dont cut it off for me. I know, your mind is popping up some h
 5.) I dont want forced design(I meant css)  
 6.) I want to own my content  
 
-So finally I moved to static site generator called [jekyll](http://jekyllrb.com/); although I was not new to it; was using it for long on my [github face](http://m.bagwanpankaj.com) and awesomeness of github pages.
+So finally I moved to static site generator called [jekyll](http://jekyllrb.com/); although I was not new to it; was using it for long on my [github face](http://bagwanpankaj.com) and awesomeness of github pages.
 
 It has saved me from troubles that I had with blogging engines and provided that
 
