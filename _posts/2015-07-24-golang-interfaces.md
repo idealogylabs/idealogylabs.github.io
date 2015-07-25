@@ -5,7 +5,7 @@ date:   2015-07-24 15:07:00
 category: golang
 tags: 
   - golang 
-  - context 
+  - interface 
 author:  Pankaj B
 ---
 
