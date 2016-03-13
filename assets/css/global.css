@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'GothamRoundedBook';
 	src: url('../fonts/gothamroundedbook-web/gothamrounded-book-webfont.eot');
@@ -1382,7 +1383,7 @@ ul.number_list li span {font-weight: bold; font-size: 12px; display: table-cell;
 	line-height: 30px;
 }
 h1.navbar-brand{
-  margin-top: 8px;
+  /*margin-top: 8px;*/
   margin-bottom: 0px;
 }
 .navbar-brand i {
