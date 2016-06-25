@@ -212,7 +212,7 @@ header .top-header-menu > ul > li.user_logout .caret { border-left: 7px solid tr
 /*Top Header End*/
 /*Bottom Header Begin*/
 .head-sticky { border-bottom: 1px solid #ebebeb; }
-header .bottom-header { padding-left: 30px; padding-right: 0px; min-height: 70px; background-color: #ffffff; }
+header .bottom-header { padding-left: 30px; padding-right: 0px; min-height: 70px; background-color: rgba(255,255,255,0.9); }
 header .bottom-header .navbar-header { margin: 15px 0; display: block; }
 header .bottom-header-menu > ul > li { float: left; }
 header .bottom-header-menu > ul > li > a { margin-right: 30px; padding: 22px 0 14px; line-height: 29px; color: #666666; font-size: 12px; text-transform: uppercase;  position: relative; font-family: 'GothamRoundedBold',Helvetica,Arial,sans-serif; }
