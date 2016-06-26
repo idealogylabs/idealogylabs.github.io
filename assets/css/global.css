@@ -1482,4 +1482,16 @@ blockquote p:before {
 blockquote p:after {
   content: '\201D';
 }
+.img-left{
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 200px;
+	height: 200px;
+}
+.img-right{
+	float: right;
+	margin: 0 0 20px 20px;
+	width: 200px;
+	height: 200px;
+}
 
