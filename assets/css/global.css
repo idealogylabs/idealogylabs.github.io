@@ -139,7 +139,10 @@ a:focus { outline: none; }
 a{ outline: none !important; text-decoration: none !important; }
 .fa-size { font-size: 1.5em !important; }
 .fa-low-size { font-size: 1.3em !important}
-h1, h2, h3, h4, h5, h6 { font-family: 'GothamRoundedBold',Helvetica,Arial,sans-serif; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 { 
+	/*font-family: 'GothamRoundedBold',Helvetica,Arial,sans-serif; */
+	text-transform: uppercase; 
+}
 
 .bg-cream { background-color: #f6f6f6; }
 .bg-drakcream { background-color: #f8f8f8; }
@@ -1404,7 +1407,7 @@ h1.navbar-brand{
 	webinar, video and trainer end
 	_______________________________________  */
 .home{
-	margin: 0 50px;
+	margin: 20px 150px 0;
 }
 .home h2{
 	text-transform: none;
@@ -1416,7 +1419,7 @@ article.post h2{
 	margin-bottom: 20px;
 }
 .post{
-  margin: 10px 50px 0;
+  margin: 20px 150px 0;
 } 
 .post .post-header .post-title{
 	margin-bottom: 3px;
